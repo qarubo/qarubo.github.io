@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(213, 216, 214);
+}
+
+.contacthead {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color: darkslategray
+}
+
+.contactinfo {
+    text-align: center;
+    font-style: oblique;
+    color: darkslategray
+}
+
+.copyright {
+    text-align: center;
+    font-family:monospace; 
+    color: darkgray;
+}
+
+.resume {
+    border-width: 2px;
+    border-style: solid;
+    color: darkslategray
+    
+}
+
+
+
+.resumetitle {
+    text-align: center;
+    font-family:serif;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.resumehead {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 24px
+}
+ol.center-list{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+  }
+  .parent-element {
+    text-align: center;
+  }
+  
+  .parent-element ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parent-element ul li {
+    margin: 0;
+    padding: 0;
+  }
+  div.centereds {
+    text-align: center;
+  }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+.text-center {
+    text-align: center;
+}
+ol.text-center {
+    list-style-position: inside;
+    padding-left: inherit; /*Get rid of padding to center correctly*/
+}
+    ol.text-center > li::before {
+        content: "\A";
+        white-space: pre;
+    }
+.resumecontent {
+ 
+    font-style: normal;
+    font-size: 17px;
+    color: darkred
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none}
+a:hover {color: deeppink;text-decoration: underline}
+
+.headlink {color: white; text-decoration: none:}
